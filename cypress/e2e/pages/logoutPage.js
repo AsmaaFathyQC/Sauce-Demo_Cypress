@@ -1,4 +1,3 @@
-// logoutPage.js
 class LogoutPage {
   openMenu() {
     cy.get('#react-burger-menu-btn').click();

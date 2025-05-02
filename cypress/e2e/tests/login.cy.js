@@ -1,6 +1,6 @@
-import LoginPage from '../pages/loginPage'; // Ensure correct path
+import LoginPage from '../pages/loginPage'; 
 
-const loginPage = new LoginPage(); // ✅ create instance
+const loginPage = new LoginPage(); 
 
 describe('Data-Driven Login Tests', () => {
   beforeEach(() => {
@@ -20,7 +20,6 @@ describe('Data-Driven Login Tests', () => {
           loginPage.assertLoginError();
         }
 
-        // Refresh/reset for next iteration
         if (user.expected === 'inventory') {
           cy.visit('/');
         }

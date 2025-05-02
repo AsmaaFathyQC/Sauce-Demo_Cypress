@@ -9,11 +9,9 @@ describe('Logout Test using POM', () => {
     loginPage.visit();
     loginPage.login('standard_user', 'secret_sauce');
 
-    // Click the menu and logout
     logoutPage.openMenu();
     logoutPage.clickLogout();
 
-    // Assert logout was successful
     logoutPage.verifyLoggedOut();
   });
 });

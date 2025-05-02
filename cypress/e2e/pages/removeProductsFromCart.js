@@ -1,4 +1,3 @@
-// cypress/support/pages/removeFromCart.js
 
 class RemoveProductCart {
     removeFirstProduct() {
